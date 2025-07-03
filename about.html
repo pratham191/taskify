@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - taskify</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html"><h1>taskify</h1></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li id="dashboard-link" style="display: none;"><a href="dashboard.html">Dashboard</a></li>
+                    <li id="auth-links">
+                        <a href="login.html" class="btn btn-login">Login</a>
+                        <a href="register.html" class="btn btn-primary">Register</a>
+                    </li>
+                    <li id="logout-link" style="display: none;">
+                        <a href="#" id="logout-btn" class="btn btn-logout">Logout</a>
+                    </li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="about-header">
+                <div class="about-content">
+                    <h1>About taskify</h1>
+                    <p>A comprehensive task management system designed to help you organize your work and boost productivity.</p>
+                </div>
+            </section>
+
+            <section class="about-details">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <div class="about-info">
+                        <h2>Project Overview</h2>
+                        <p>taskify is a task management web application developed as a college project at Indian Institute of Technology, Patna. The project aims to demonstrate the implementation of a responsive web application using HTML, CSS, and JavaScript with client-side data persistence.</p>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="about-info">
+                        <h2>Features</h2>
+                        <ul>
+                            <li><i class="fas fa-check"></i> User registration and authentication</li>
+                            <li><i class="fas fa-check"></i> Create, edit, and delete tasks</li>
+                            <li><i class="fas fa-check"></i> Set task priorities and due dates</li>
+                            <li><i class="fas fa-check"></i> Mark tasks as completed</li>
+                            <li><i class="fas fa-check"></i> Filter and sort tasks</li>
+                            <li><i class="fas fa-check"></i> Responsive design for all devices</li>
+                            <li><i class="fas fa-check"></i> Dark and light theme options</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="about-info">
+                        <h2>Technologies Used</h2>
+                        <ul>
+                            <li><i class="fab fa-html5"></i> HTML5 - Structure</li>
+                            <li><i class="fab fa-css3-alt"></i> CSS3 - Styling and Animations</li>
+                            <li><i class="fab fa-js"></i> JavaScript - Functionality and Interactivity</li>
+                            <li><i class="fas fa-database"></i> LocalStorage - Data Persistence</li>
+                            <li><i class="fab fa-font-awesome"></i> Font Awesome - Icons</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-college">
+                <div class="college-info">
+                    <h2>Indian Institute of Technology, Patna</h2>
+                    <p>This project was developed as part of the Web Development course at IIT Patna, one of India's premier engineering institutions.</p>
+                    <div class="college-details">
+                        <div class="college-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Bihta, Patna, Bihar 801106</p>
+                        </div>
+                        <div class="college-detail">
+                            <i class="fas fa-globe"></i>
+                            <p>www.iitp.ac.in</p>
+                        </div>
+                        <div class="college-detail">
+                            <i class="fas fa-phone"></i>
+                            <p>+91-6115-233-0XX</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="college-image">
+                    <img src="/iitpatna.jpg" alt="IIT Patna Campus"/>
+                </div>
+            </section>
+
+            <section class="developer-info">
+                <h2>Developer Information</h2>
+                <div class="developer-card">
+                    <div class="developer-image">
+                        <img src="images/developer.svg" alt="Developer">
+                    </div>
+                    <div class="developer-details">
+                        <h3>Student Name</h3>
+                        <p class="developer-title">BSc Computer Science and Data Analytics</p>
+                        <p class="developer-description">
+                            Passionate about web development and creating user-friendly applications that solve real-world problems.
+                        </p>
+                        <div class="developer-social">
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>taskify</h2>
+                    <p>Task Management System helps you manage your tasks efficiently and boost your productivity.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p>Email: info@taskify.com</p>
+                    <p>Phone: +91 9876543210</p>
+                    <p>Address: Kanpa road,Bihta,Patna</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/theme.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/navbar.js"></script>
+</body>
+</html> 

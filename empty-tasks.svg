@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="500" height="300" viewBox="0 0 500 300" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M391.82,50H108.18a8.17,8.17,0,0,0-8.16,8.16V241.84a8.17,8.17,0,0,0,8.16,8.16H391.82a8.17,8.17,0,0,0,8.16-8.16V58.16A8.17,8.17,0,0,0,391.82,50Z" fill="#f2f2f2"/>
+  <path d="M377.82,70H122.18a8.17,8.17,0,0,0-8.16,8.16V221.84a8.17,8.17,0,0,0,8.16,8.16H377.82a8.17,8.17,0,0,0,8.16-8.16V78.16A8.17,8.17,0,0,0,377.82,70Z" fill="#fff"/>
+  <rect x="150" y="100" width="200" height="10" rx="5" fill="#e6e6e6"/>
+  <rect x="150" y="120" width="200" height="10" rx="5" fill="#e6e6e6"/>
+  <rect x="150" y="140" width="200" height="10" rx="5" fill="#e6e6e6"/>
+  <rect x="150" y="160" width="200" height="10" rx="5" fill="#e6e6e6"/>
+  <rect x="150" y="180" width="200" height="10" rx="5" fill="#e6e6e6"/>
+  <rect x="150" y="200" width="100" height="10" rx="5" fill="#e6e6e6"/>
+  <circle cx="250" cy="150" r="50" fill="#4361ee" opacity="0.2"/>
+  <path d="M275,140h-20v-20a5,5,0,0,0-10,0v20h-20a5,5,0,0,0,0,10h20v20a5,5,0,0,0,10,0v-20h20a5,5,0,0,0,0-10Z" fill="#4361ee"/>
+</svg> 
